@@ -474,7 +474,7 @@
         var orderTraversed = [];
 
         _.reduce([1, 2, 3, 4], function(memo, item) {
-
+          orderTraversed.push(item);
           return memo;
         }, 10);
 
